@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tokoh Pembaharu dalam Sejarah Islam</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Poppins', 'ui-sans-serif', 'system-ui'],
+          },
+          colors: {
+            islBg: '#f9fafb',
+            islGreen: '#0f766e',
+            islGreenSoft: '#bbf7d0',
+            islGold: '#fbbf24',
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-islBg text-slate-800 font-sans">
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-30 bg-white/90 backdrop-blur shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="w-8 h-8 rounded-full bg-islGreen flex items-center justify-center">
+          <span class="text-white text-sm font-semibold">PAI</span>
+        </div>
+        <div>
+          <div class="font-semibold text-slate-900 leading-tight">Islamic Insight</div>
+          <p class="text-[10px] text-slate-500 leading-tight">Blog Tokoh Pemikir Islam</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-xs">
+        <a href="#beranda" class="hover:text-islGreen">Beranda</a>
+        <a href="#ibnu-sina" class="hover:text-islGreen">Ibnu Sina</a>
+        <a href="#muhammad-abduh" class="hover:text-islGreen">Muhammad Abduh</a>
+        <a href="#mengapa" class="hover:text-islGreen">Mengapa Tokoh Ini?</a>
+        <a href="#tentang" class="hover:text-islGreen">Tentang</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="beranda" class="max-w-6xl mx-auto px-4 pt-8 pb-12 space-y-14">
+
+    <!-- HERO: TEKS + AREA GAMBAR BESAR -->
+    <section class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h1 class="text-3xl md:text-4xl font-semibold text-slate-900 leading-snug">
+          Tokoh-Tokoh Pembaharu dalam Sejarah Islam
+        </h1>
+        <p class="mt-3 text-sm text-slate-600">
+          Mengenal <span class="font-semibold text-islGreen">Ibnu Sina</span> dan
+          <span class="font-semibold text-islGreen">Muhammad Abduh</span> sebagai
+          teladan integrasi iman, ilmu, dan pembaruan pemikiran untuk generasi muda.
+        </p>
+        <div class="mt-5 flex flex-wrap gap-3 text-xs">
+          <a href="#ibnu-sina" class="px-4 py-2 rounded-full bg-islGreen text-white font-medium hover:bg-teal-800">
+            Pelajari Ibnu Sina
+          </a>
+          <a href="#muhammad-abduh" class="px-4 py-2 rounded-full border border-islGreen text-islGreen hover:bg-islGreenSoft">
+            Pelajari Muhammad Abduh
+          </a>
+        </div>
+      </div>
+
+      <!-- Placeholder gambar hero (ISI FOTO/ILUSTRASI) -->
+      <div class="relative">
+        <div class="absolute -top-4 -right-4 w-14 h-14 rounded-full bg-islGreenSoft blur-xl opacity-70"></div>
+        <div class="absolute -bottom-6 -left-2 w-10 h-10 rounded-full bg-islGold blur-md opacity-70"></div>
+        <div class="relative border border-dashed border-islGreenSoft rounded-2xl h-48 md:h-56 flex items-center justify-center bg-white/60 overflow-hidden">
+          <img src="images/395cf44f4b0cb756e133e21eca1461bc.jpg" alt="(ilustrasi kitab, masjid, atau siluet ilmuwan Muslim)" class="w-full h-full object-cover">
+        </div>
+      </div>
+    </section>
+
+    <!-- DUA KARTU UTAMA: SETIAP KARTU ADA SLOT GAMBAR -->
+    <section class="grid md:grid-cols-2 gap-6">
+      <!-- Ibnu Sina Card -->
+      <article class="bg-white rounded-2xl shadow-sm border border-slate-100 p-4 flex flex-col gap-3">
+        <!-- Gambar -->
+        <div class="w-full h-40 rounded-xl border border-dashed border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+          <img src="images/ibn-sina-690f7e2a34486.jpg" alt="Ibnu Sina" class="w-full h-full object-cover">
+        </div>
+        <!-- Ringkasan -->
+        <div>
+          <h3 class="text-base font-semibold text-slate-900">Ibnu Sina</h3>
+          <p class="mt-1 text-[11px] text-slate-600">
+            Dokter, filosof, dan ulama yang menghubungkan iman dengan sains. Dijuluki
+            <span class="italic">“Bapak Kedokteran Modern”</span>.
+          </p>
+          <ul class="mt-2 text-[11px] text-slate-600 list-disc list-inside space-y-1">
+            <li>Integrasi iman & ilmu kedokteran.</li>
+            <li>Karya utama: <span class="italic">Al-Qanun fi al-Thibb</span>, <span class="italic">Al-Syifa</span>.</li>
+            <li>Menjadi rujukan dunia selama berabad-abad.</li>
+          </ul>
+        </div>
+        <a href="#ibnu-sina" class="text-[10px] text-islGreen font-semibold hover:underline mt-auto">
+          Baca profil lengkap Ibnu Sina ↗
+        </a>
+      </article>
+
+      <!-- Muhammad Abduh Card -->
+      <article class="bg-white rounded-2xl shadow-sm border border-slate-100 p-4 flex flex-col gap-3">
+        <!-- Gambar -->
+        <div class="w-full h-40 rounded-xl border border-dashed border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+          <img src="images/muh-abduh-690f7608899b8.jpg" alt="Muhammad Abduh" class="w-full h-full object-cover">
+        </div>
+        <!-- Ringkasan -->
+        <div>
+          <h3 class="text-base font-semibold text-slate-900">Muhammad Abduh</h3>
+          <p class="mt-1 text-[11px] text-slate-600">
+            Ulama pembaharu yang menekankan akal, keadilan, dan relevansi Islam di era modern.
+          </p>
+          <ul class="mt-2 text-[11px] text-slate-600 list-disc list-inside space-y-1">
+            <li>Melawan taklid buta, mengajak berpikir kritis.</li>
+            <li>Mereformasi pendidikan & tafsir Al-Qur’an.</li>
+            <li>Modernitas tanpa meninggalkan agama.</li>
+          </ul>
+        </div>
+        <a href="#muhammad-abduh" class="text-[10px] text-islGreen font-semibold hover:underline mt-auto">
+          Baca profil lengkap Muhammad Abduh ↗
+        </a>
+      </article>
+    </section>
+
+    <!-- SECTION MENGAPA (RINGKAS + VISUAL) -->
+    <section id="mengapa" class="bg-white rounded-2xl shadow-sm border border-slate-100 p-5">
+      <div class="flex flex-wrap items-center gap-4">
+        <!-- Ikon/ilustrasi kecil -->
+        <div class="w-16 h-16 rounded-2xl bg-islGreenSoft flex items-center justify-center">
+          <span class="text-[10px] text-islGreen text-center px-1">
+            Integrasi<br>Iman & Ilmu
+          </span>
+        </div>
+        <div class="flex-1">
+          <h2 class="text-lg font-semibold text-slate-900">
+            Mengapa Kita Harus Mengenal Tokoh-Tokoh Ini?
+          </h2>
+          <p class="mt-1 text-[11px] text-slate-600">
+            Ibnu Sina melambangkan integrasi iman dan sains. Muhammad Abduh melambangkan pembaruan pemikiran
+            dan penerapan Islam yang relevan sepanjang zaman.
+          </p>
+        </div>
+      </div>
+      <ul class="mt-3 text-[11px] text-slate-600 grid md:grid-cols-3 gap-2">
+        <li class="bg-slate-50 rounded-xl px-3 py-2">
+          Ulama bukan hanya penceramah, tapi juga ilmuwan & pemikir.
+        </li>
+        <li class="bg-slate-50 rounded-xl px-3 py-2">
+          Umat Islam punya tradisi intelektual yang kuat dan mendalam.
+        </li>
+        <li class="bg-slate-50 rounded-xl px-3 py-2">
+          Tantangan zaman dijawab dengan ilmu, ijtihad, dan akhlak.
+        </li>
+      </ul>
+    </section>
+
+    <!-- KUTIPAN DALAM BLOK VISUAL -->
+    <section class="grid md:grid-cols-2 gap-4">
+      <figure class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm">
+        <figcaption class="text-[9px] font-semibold text-islGreen uppercase tracking-[0.16em]">
+          Ibnu Sina
+        </figcaption>
+        <blockquote class="mt-2 border-l-4 border-islGreen pl-3 text-[11px] text-slate-700 italic">
+          Ilmu adalah cara memahami ciptaan Allah dan harus membawa manfaat bagi manusia.
+        </blockquote>
+      </figure>
+      <figure class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm">
+        <figcaption class="text-[9px] font-semibold text-islGreen uppercase tracking-[0.16em]">
+          Muhammad Abduh
+        </figcaption>
+        <blockquote class="mt-2 border-l-4 border-islGreen pl-3 text-[11px] text-slate-700 italic">
+          Islam sejalan dengan akal sehat; ia mengajak berpikir, bukan sekadar mengikuti.
+        </blockquote>
+      </figure>
+    </section>
+
+    <!-- ARTIKEL DETAIL: IBNU SINA (RINGKAS + BACA SELENGKAPNYA) -->
+    <section id="ibnu-sina" class="bg-white rounded-2xl shadow-sm border border-slate-100 p-5 space-y-4">
+      <div class="grid md:grid-cols-[2fr,1fr] gap-4 items-start">
+        <div>
+          <h2 class="text-xl font-semibold text-slate-900">
+            Ibnu Sina: Bukti bahwa Sains dan Iman Bisa Berjalan Bersama
+          </h2>
+          <p class="mt-1 text-[11px] text-slate-600">
+            Tokoh besar yang menunjukkan bahwa mempelajari kedokteran, filsafat, dan sains
+            dapat menjadi bagian dari pengabdian kepada Allah.
+          </p>
+        </div>
+        <!-- Tempat gambar artikel -->
+        <div class="w-full h-24 rounded-xl border border-dashed border-slate-200 bg-slate-50 flex items-center justify-center">
+          <img src="images/ibn-sina2-690f8020d612d.webp" alt="Ilustrasi Muhammad Abduh / suasana majelis ilmu" class="w-full h-full object-cover">
+        </div>
+      </div>
+
+      <!-- Fakta cepat -->
+      <div class="grid md:grid-cols-4 gap-3 text-[10px] text-slate-600">
+        <div class="bg-slate-50 rounded-xl px-3 py-2">
+          <span class="font-semibold text-islGreen">Nama</span><br>Abu Ali al-Husayn ibn Abdillah ibn Sina
+        </div>
+        <div class="bg-slate-50 rounded-xl px-3 py-2">
+          <span class="font-semibold text-islGreen">Lahir</span><br>980 M, Afsyanah
+        </div>
+        <div class="bg-slate-50 rounded-xl px-3 py-2">
+          <span class="font-semibold text-islGreen">Peran</span><br>Dokter, filosof, ulama
+        </div>
+        <div class="bg-slate-50 rounded-xl px-3 py-2">
+          <span class="font-semibold text-islGreen">Karya</span><br><span class="italic">Al-Qanun</span>, <span class="italic">Al-Syifa</span>
+        </div>
+      </div>
+
+      <!-- Detail disembunyikan agar tidak terlalu padat -->
+      <details class="mt-2 text-[11px] text-slate-600">
+        <summary class="cursor-pointer text-islGreen font-semibold">
+          Baca selengkapnya tentang kontribusi & nilai pendidikan Ibnu Sina
+        </summary>
+        <div class="mt-2 space-y-2">
+          <div>
+            <h3 class="font-semibold text-slate-900 text-sm">Kontribusi dalam Kedokteran</h3>
+            <ul class="list-disc list-inside space-y-1">
+              <li>Sistem diagnosa berbasis observasi klinis.</li>
+              <li>Membahas anatomi, farmasi, penyakit menular, dan etika dokter.</li>
+              <li>Karyanya menjadi rujukan universitas Eropa selama berabad-abad.</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-slate-900 text-sm">Filsafat & Ilmu Pengetahuan</h3>
+            <ul class="list-disc list-inside space-y-1">
+              <li>Menggabungkan wahyu dan akal.</li>
+              <li>Memandang akal sebagai karunia Allah untuk memahami ciptaan-Nya.</li>
+              <li>Menjembatani pemikiran Yunani dan tradisi Islam.</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-slate-900 text-sm">Etika & Spiritualitas</h3>
+            <ul class="list-disc list-inside space-y-1">
+              <li>Ilmu harus membawa manfaat.</li>
+              <li>Dokter memiliki tanggung jawab moral.</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-slate-900 text-sm">Nilai Pendidikan Islam</h3>
+            <ul class="list-disc list-inside space-y-1">
+              <li>Cinta ilmu dan belajar lintas disiplin.</li>
+              <li>Iman dan sains saling menguatkan.</li>
+              <li>Profesional, amanah, dan berorientasi kemaslahatan.</li>
+            </ul>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <!-- ARTIKEL DETAIL: MUHAMMAD ABDUH (RINGKAS + BACA SELENGKAPNYA) -->
+    <section id="muhammad-abduh" class="bg-white rounded-2xl shadow-sm border border-slate-100 p-5 space-y-4">
+      <div class="grid md:grid-cols-[2fr,1fr] gap-4 items-start">
+        <div>
+          <h2 class="text-xl font-semibold text-slate-900">
+            Muhammad Abduh: Menghidupkan Kembali Islam yang Cerdas dan Progresif
+          </h2>
+          <p class="mt-1 text-[11px] text-slate-600">
+            Pembaharu yang menekankan pentingnya akal sehat, keadilan sosial, dan pendidikan yang relevan
+            dengan perkembangan zaman.
+          </p>
+        </div>
+        <!-- Tempat gambar artikel -->
+        <div class="w-full h-24 rounded-xl border border-dashed border-slate-200 bg-slate-50 flex items-center justify-center">
+            <img src="images/muh-abduh2-690f8080da1e3.jpg" alt="Ilustrasi Muhammad Abduh / suasana majelis ilmu" class="w-full h-full object-cover">
+        </div>
+      </div>
+
+      <!-- Fakta cepat -->
+      <div class="grid md:grid-cols-4 gap-3 text-[10px] text-slate-600">
+        <div class="bg-slate-50 rounded-xl px-3 py-2">
+          <span class="font-semibold text-islGreen">Nama</span><br>Muhammad Abduh
+        </div>
+        <div class="bg-slate-50 rounded-xl px-3 py-2">
+          <span class="font-semibold text-islGreen">Lahir</span><br>1849 M, Mesir
+        </div>
+        <div class="bg-slate-50 rounded-xl px-3 py-2">
+          <span class="font-semibold text-islGreen">Peran</span><br>Mufti, mufasir, pembaharu
+        </div>
+        <div class="bg-slate-50 rounded-xl px-3 py-2">
+          <span class="font-semibold text-islGreen">Fokus</span><br>Akal, pendidikan, reformasi sosial
+        </div>
+      </div>
+
+      <!-- Detail disembunyikan -->
+      <details class="mt-2 text-[11px] text-slate-600">
+        <summary class="cursor-pointer text-islGreen font-semibold">
+          Baca selengkapnya tentang gagasan & nilai pendidikan Muhammad Abduh
+        </summary>
+        <div class="mt-2 space-y-2">
+          <div>
+            <h3 class="font-semibold text-slate-900 text-sm">Islam dan Akal</h3>
+            <ul class="list-disc list-inside space-y-1">
+              <li>Islam selaras dengan akal sehat.</li>
+              <li>Menolak taklid buta, mendorong ijtihad.</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-slate-900 text-sm">Pembaruan Pendidikan</h3>
+            <ul class="list-disc list-inside space-y-1">
+              <li>Menggabungkan ilmu agama dan ilmu umum.</li>
+              <li>Mengkritik pembelajaran tanpa pemahaman.</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-slate-900 text-sm">Tafsir Progresif</h3>
+            <ul class="list-disc list-inside space-y-1">
+              <li>Menonjolkan keadilan, kebebasan, dan kemajuan.</li>
+              <li>Kembali ke ajaran murni, bukan adat menyimpang.</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-slate-900 text-sm">Sikap terhadap Barat & Modernitas</h3>
+            <ul class="list-disc list-inside space-y-1">
+              <li>Mengambil manfaat ilmu & sistem Barat secara selektif.</li>
+              <li>Modernitas tidak identik dengan meninggalkan agama.</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-slate-900 text-sm">Nilai Pendidikan Islam</h3>
+            <ul class="list-disc list-inside space-y-1">
+              <li>Berpikir kritis dan terbuka.</li>
+              <li>Penerapan syariat yang relevan dengan konteks zaman.</li>
+              <li>Penegakan keadilan dan moral publik.</li>
+            </ul>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <!-- Tentang -->
+    <section id="tentang" class="text-center text-[10px] text-slate-500 mt-2">
+      <p>
+        Disusun sebagai media pembelajaran PAI modern untuk siswa SMA/SMK.
+        Gambar dapat diisi dengan ilustrasi tokoh, kitab, atau aktivitas keilmuan.
+      </p>
+      <p class="mt-1">
+        &copy; 2025 · Nama Siswa / Kelas / Mapel PAI
+      </p>
+    </section>
+
+  </main>
+</body>
+</html>
